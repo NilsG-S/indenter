@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-i": "indenter:halve"
+    "ctrl-alt-1": "indent-refactor:refactor"
   }
 }

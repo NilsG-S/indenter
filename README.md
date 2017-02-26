@@ -1,3 +1,3 @@
-# indenter
+# indent-refactor
 
-Halves the indentation level of every line in the open file.
+Refactors indentation for the currently open file.

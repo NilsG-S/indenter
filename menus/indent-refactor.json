@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "indenter:Halve",
-        "command": "indenter:halve"
+        "label": "Indent Refactor",
+        "command": "indent-refactor:refactor"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "indenter",
+          "label": "indent-refactor",
           "submenu": [
             {
-              "label": "Halve",
-              "command": "indenter:halve"
+              "label": "Indent Refactor",
+              "command": "indent-refactor:refactor"
             }
           ]
         }

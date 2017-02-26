@@ -1,14 +1,13 @@
 {
-  "name": "indenter",
-  "main": "./lib/indenter",
-  "version": "0.0.1",
-  "description": "Halves indentation level of all lines in open file",
-  "keywords": [
-  ],
+  "name": "indent-refactor",
+  "main": "./lib/indent-refactor",
+  "version": "0.0.0",
+  "description": "Indentation refactoring",
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "indenter:halve"
+    "atom-workspace": "indent-refactor:refactor"
   },
-  "repository": "",
+  "repository": "https://github.com/NilsG-S/indenter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
