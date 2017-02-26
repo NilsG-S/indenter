@@ -1,14 +1,14 @@
 {
   "name": "indenter",
   "main": "./lib/indenter",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Halves indentation level of all lines in open file",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "indenter:toggle"
+    "atom-workspace": "indenter:halve"
   },
-  "repository": "https://github.com/atom/indenter",
+  "repository": "",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
