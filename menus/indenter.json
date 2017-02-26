@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle indenter",
-        "command": "indenter:toggle"
+        "label": "indenter:Halve",
+        "command": "indenter:halve"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "indenter",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "indenter:toggle"
+              "label": "Halve",
+              "command": "indenter:halve"
             }
           ]
         }
