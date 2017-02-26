@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle indenter",
+        "command": "indenter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "indenter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "indenter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
