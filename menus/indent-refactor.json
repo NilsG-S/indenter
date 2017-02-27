@@ -1,22 +1,18 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Indent Refactor",
-        "command": "indent-refactor:refactor"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "indent-refactor",
+          "label": "Indent Refactor",
           "submenu": [
             {
-              "label": "Indent Refactor",
+              "label": "Refactor",
               "command": "indent-refactor:refactor"
+            },
+            {
+              "label": "Set",
+              "command": "indent-refactor:set"
             }
           ]
         }
