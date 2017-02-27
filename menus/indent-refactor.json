@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Indent Refactor",
+          "submenu": [
+            {
+              "label": "Refactor",
+              "command": "indent-refactor:refactor"
+            },
+            {
+              "label": "Set",
+              "command": "indent-refactor:set"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
